@@ -9,23 +9,34 @@ eureka_effect = {
 			modifier = {
 				if = {
 					limit = {
-						NOT = { has_active_production_method = pm_tradition_breed_breed_center }
-					}
-					add = -100
-				}
-			}
-			eurekacheck_urbanization = yes
-		}
-		100 = {
-			modifier = {
-				if = {
-					limit = {
-						NOT = { has_active_production_method = pm_elite_breed }
+						NOT = { is_building_type = breed_center }
 					}
 					add = -100
 				}
 			}
 			eurekacheck_human_rights = yes
+		}
+		100 = {
+			modifier = {
+				if = {
+					limit = {
+						NOT = { has_active_production_method = pm_breed_center_shop }
+					}
+					add = -100
+				}
+			}
+			eurekacheck_steel_frame_buildings = yes
+		}
+		100 = {
+			modifier = {
+				if = {
+					limit = {
+						NOT = { has_active_production_method = pm_breed_center_parkinglot }
+					}
+					add = -100
+				}
+			}
+			eurekacheck_combustion_engine = yes
 		}
 		100 = {
 			modifier = {
