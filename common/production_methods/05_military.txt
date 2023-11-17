@@ -20,6 +20,9 @@ pm_general_training = {
 		line_infantry
 	}
 	building_modifiers = {
+		unscaled = {
+			building_production_exp_cap_add = 0.1
+		}
 		workforce_scaled = {
 			building_production_exp_growth_add = 0.001
 		}
@@ -37,6 +40,9 @@ pm_advanced_tactics_training = {
 		general_staff
 	}
 	building_modifiers = {
+		unscaled = {
+			building_production_exp_cap_add = 0.2
+		}
 		workforce_scaled = {
 			building_production_exp_growth_add = 0.001
 		}
@@ -54,6 +60,9 @@ pm_training_streamlining = {
 		trench_works
 	}
 	building_modifiers = {
+		unscaled = {
+			building_production_exp_cap_add = 0.3
+		}
 		workforce_scaled = {
 			building_production_exp_growth_add = 0.001
 		}
@@ -71,6 +80,9 @@ pm_nco_incorporation = {
 		nco_training
 	}
 	building_modifiers = {
+		unscaled = {
+			building_production_exp_cap_add = 0.4
+		}
 		workforce_scaled = {
 			building_production_exp_growth_add = 0.001
 		}
@@ -89,6 +101,9 @@ pm_mobile_warfare_tactics = {
 		mobile_armor
 	}
 	building_modifiers = {
+		unscaled = {
+			building_production_exp_cap_add = 0.5
+		}
 		workforce_scaled = {
 			building_production_exp_growth_add = 0.001
 		}
@@ -228,6 +243,7 @@ pm_power_of_the_purse = {
 		unscaled = {
 			unit_morale_loss_mult = -0.05
 			unit_morale_damage_mult = 0.1
+			building_production_exp_cap_add = 0.1
 		}
 	}
 }
@@ -250,6 +266,7 @@ pm_jeune_ecole = {
 		unscaled = {
 			unit_morale_loss_mult = -0.1
 			unit_morale_damage_mult = 0.2
+			building_production_exp_cap_add = 0.2
 		}
 	}
 }
@@ -272,6 +289,7 @@ pm_sea_lane_strategies = {
 		unscaled = {
 			unit_morale_loss_mult = -0.15
 			unit_morale_damage_mult = 0.3
+			building_production_exp_cap_add = 0.3
 		}
 	}
 }
@@ -294,6 +312,7 @@ pm_battlefleet_tactics = {
 		unscaled = {
 			unit_morale_loss_mult = -0.2
 			unit_morale_damage_mult = 0.4
+			building_production_exp_cap_add = 0.4
 		}
 	}
 }
