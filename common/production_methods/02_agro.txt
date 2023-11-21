@@ -625,11 +625,7 @@ pm_slaughterhouses = {
 	texture = "gfx/interface/icons/production_method_icons/slaughterhouses.dds"	
 
 	state_modifiers = {
-		unscaled = {
-			building_production_exp_cap_add = 0.3
-		}
 		workforce_scaled = {
-			building_production_exp_growth_add = 0.001
 			state_pollution_generation_add = 10
 		}
 	}
@@ -638,7 +634,11 @@ pm_slaughterhouses = {
 		mechanical_tools
 	}	
 	building_modifiers = {
+		unscaled = {
+			building_production_exp_cap_add = 0.3
+		}
 		workforce_scaled = {
+			building_production_exp_growth_add = 0.001
 			goods_input_tools_add = 10
 			goods_output_meat_add = 30
 		}
@@ -656,11 +656,7 @@ pm_mechanized_slaughtering = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"	
 
 	state_modifiers = {
-		unscaled = {
-			building_production_exp_cap_add = 0.4
-		}
 		workforce_scaled = {
-			building_production_exp_growth_add = 0.001
 			state_pollution_generation_add = 15
 		}
 	}
@@ -669,7 +665,11 @@ pm_mechanized_slaughtering = {
 		mechanized_farming
 	}
 	building_modifiers = {
+		unscaled = {
+			building_production_exp_cap_add = 0.4
+		}
 		workforce_scaled = {
+			building_production_exp_growth_add = 0.001
 			goods_input_tools_add = 10
 			goods_input_coal_add = 5
 			goods_output_meat_add = 45
