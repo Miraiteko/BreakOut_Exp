@@ -56,7 +56,7 @@ production_exp_monthly_check = {
 			random_list = {
 				100 = {
 					modifier = {
-						multiply = state.new_production_exp_over_cap
+						multiply = new_production_exp_over_cap
 					}
 					eureka_effect = yes
 				}
