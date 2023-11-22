@@ -610,7 +610,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}
 		
 		100 = {
@@ -707,7 +707,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_baking_powder = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -762,7 +762,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_dough_rollers = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -960,7 +960,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_plastics = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -982,7 +982,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_automatic_bottle_blowers = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -1136,7 +1136,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_nitrogen_fixation = yes
+			#eurekacheck_nitrogen_fixation = yes
 		}	
 		100 = {
 			modifier = {
@@ -1180,7 +1180,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_art_silk = yes
+			#eurekacheck_art_silk = yes
 		}	
 		100 = {
 			modifier = {
@@ -1246,7 +1246,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_electric_railway = yes
+			##eurekacheck_electric_railway = yes
 		}	
 		100 = {
 			modifier = {
@@ -1257,7 +1257,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_compression_ignition = yes
+			#eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1334,7 +1334,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_arc_welding = yes
+			#eurekacheck_arc_welding = yes
 		}	
 		100 = {
 			modifier = {
@@ -1356,7 +1356,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_mobile_armor = yes
+			##eurekacheck_mobile_armor = yes
 		}	
 		100 = {
 			modifier = {
@@ -1367,7 +1367,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_radio = yes
+			#eurekacheck_radio = yes
 		}	
 		100 = {
 			modifier = {
@@ -1576,7 +1576,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_nitrogen_fixation = yes
+			#eurekacheck_nitrogen_fixation = yes
 		}	
 		100 = {
 			modifier = {
@@ -1598,7 +1598,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_mechanized_farming = yes
+			#eurekacheck_mechanized_farming = yes
 		}	
 		100 = {
 			modifier = {
@@ -1609,7 +1609,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_compression_ignition = yes
+			#eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1642,7 +1642,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_nitrogen_fixation = yes
+			#eurekacheck_nitrogen_fixation = yes
 		}	
 		100 = {
 			modifier = {
@@ -1675,7 +1675,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_compression_ignition = yes
+			#eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1796,7 +1796,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_compression_ignition = yes
+			#eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1873,7 +1873,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_compression_ignition = yes
+			#eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1928,7 +1928,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_compression_ignition = yes
+			#eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1983,7 +1983,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_compression_ignition = yes
+			#eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -2016,7 +2016,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -2049,7 +2049,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -2060,7 +2060,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -2071,7 +2071,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -2082,7 +2082,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -2093,7 +2093,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -2104,7 +2104,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -2115,7 +2115,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -2126,7 +2126,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -2269,7 +2269,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_oil_turbine = yes
+			#eurekacheck_oil_turbine = yes
 		}	
 		100 = {
 			modifier = {
@@ -2302,7 +2302,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_concrete_dockyards = yes
+			#eurekacheck_concrete_dockyards = yes
 		}	
 		100 = {
 			modifier = {
@@ -2357,7 +2357,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_analytical_philosophy = yes
+			#eurekacheck_analytical_philosophy = yes
 		}	
 		100 = {
 			modifier = {
@@ -2368,7 +2368,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_zeppelins = yes
+			#eurekacheck_zeppelins = yes
 		}	
 		100 = {
 			modifier = {
@@ -2434,7 +2434,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_electric_railway = yes
+			##eurekacheck_electric_railway = yes
 		}	
 		100 = {
 			modifier = {
@@ -2456,7 +2456,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -2489,7 +2489,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_electric_railway = yes
+			##eurekacheck_electric_railway = yes
 		}	
 		100 = {
 			modifier = {
@@ -2500,7 +2500,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_flash_freezing = yes
+			#eurekacheck_flash_freezing = yes
 		}	
 		100 = {
 			modifier = {
@@ -2544,7 +2544,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_electric_railway = yes
+			##eurekacheck_electric_railway = yes
 		}	
 		100 = {
 			modifier = {
@@ -2555,7 +2555,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_flash_freezing = yes
+			#eurekacheck_flash_freezing = yes
 		}	
 		100 = {
 			modifier = {
@@ -2621,7 +2621,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_electric_railway = yes
+			##eurekacheck_electric_railway = yes
 		}	
 		100 = {
 			modifier = {
@@ -2632,7 +2632,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_compression_ignition = yes
+			#eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -2687,7 +2687,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_arc_welding = yes
+			#eurekacheck_arc_welding = yes
 		}	
 		100 = {
 			modifier = {
@@ -2698,7 +2698,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pumpjacks = yes
+			
 		}	
 		100 = {
 			modifier = {
@@ -2786,7 +2786,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_arc_welding = yes
+			#eurekacheck_arc_welding = yes
 		}	
 		100 = {
 			modifier = {
@@ -2874,7 +2874,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_mechanized_farming = yes
+			#eurekacheck_mechanized_farming = yes
 		}	
 		100 = {
 			modifier = {
@@ -2896,7 +2896,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_mechanized_farming = yes
+			#eurekacheck_mechanized_farming = yes
 		}	
 		100 = {
 			modifier = {
@@ -2940,7 +2940,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_flash_freezing = yes
+			#eurekacheck_flash_freezing = yes
 		}	
 		100 = {
 			modifier = {
@@ -2973,7 +2973,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_pm_battlefleet_tactics = yes
+			#eurekacheck_pm_battlefleet_tactics = yes
 		}	
 		100 = {
 			modifier = {
@@ -3028,7 +3028,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_mobile_armor = yes
+			##eurekacheck_mobile_armor = yes
 		}	
 	}
 }
