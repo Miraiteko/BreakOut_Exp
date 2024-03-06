@@ -1,0 +1,4 @@
+修改了以下原版文件
+common\production_methods为原版生存方式添加生产经验增长效果
+common\technology\technologies修改原版的陆军预备队科技问题
+gui\building_details_panel.gui在建筑页面上添加了生产经验条
