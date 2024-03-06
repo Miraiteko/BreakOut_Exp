@@ -670,7 +670,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_navigation = yes
+			eurekacheck_admiralty = yes
 		}
 		
 		100 = {
@@ -714,6 +714,17 @@ eureka_effect = {
 				if = {
 					limit = {
 						NOT = { has_active_production_method = pm_cannery }
+					}
+					add = -100
+				}
+			}
+			eurekacheck_canneries = yes
+		}	
+		100 = {
+			modifier = {
+				if = {
+					limit = {
+						NOT = { has_active_production_method = pm_cannery_fish }
 					}
 					add = -100
 				}
@@ -2907,7 +2918,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_trench_works = yes
+			#eurekacheck_field_works = yes
 		}	
 		100 = {
 			modifier = {
@@ -2940,7 +2951,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			#eurekacheck_flash_freezing = yes
+			##eurekacheck_electric_railway = yes
 		}	
 		100 = {
 			modifier = {
@@ -2984,7 +2995,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_line_infantry = yes
+			eurekacheck_general_staff = yes
 		}	
 		100 = {
 			modifier = {
@@ -2995,7 +3006,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_general_staff = yes
+			eurekacheck_military_statistics= yes
 		}	
 		100 = {
 			modifier = {
@@ -3006,7 +3017,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_trench_works = yes
+			eurekacheck_wargaming = yes
 		}	
 		100 = {
 			modifier = {
