@@ -10,18 +10,18 @@ pm_base_bank = {
 		}	
 		level_scaled = {
 			building_employment_clerks_add = 200
-			building_employment_capitalists_add = 100
+			building_employment_bankers_add = 100
 			building_employment_shopkeepers_add = 700
 		}
 		unscaled = {
 			building_shopkeepers_shares_add = 0.1
-			building_capitalists_shares_add = 1
+			building_bankers_shares_add = 1
 			building_production_exp_cap_add = 0.2
 		}
 	}		
 	state_modifiers = {
 		workforce_scaled = {
-			state_capitalists_investment_pool_contribution_add = 0.01
+			#state_capitalists_investment_pool_contribution_add = 0.01
 			state_political_strength_from_wealth_mult = 0.01
 		}	
 	}	
@@ -40,21 +40,21 @@ pm_mutual_funds = {
 		}	
 		level_scaled = {
 			building_employment_clerks_add = 400
-			building_employment_capitalists_add = 200
+			building_employment_bankers_add = 200
 			building_employment_shopkeepers_add = 400
 		}
 		unscaled = {
 			building_shopkeepers_shares_add = 0.1
-			building_capitalists_shares_add = 1
+			building_bankers_shares_add = 1
 			building_production_exp_cap_add = 0.4
 		}
 	}		
 	state_modifiers = {
 		workforce_scaled = {
-			state_capitalists_investment_pool_contribution_add = 0.01
+			#state_capitalists_investment_pool_contribution_add = 0.01
 			state_political_strength_from_wealth_mult = 0.01
 		}	
-	}	
+	}
 }	
 pm_modern_financial_instruments = {
 	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
@@ -70,18 +70,18 @@ pm_modern_financial_instruments = {
 		}	
 		level_scaled = {
 			building_employment_clerks_add = 600
-			building_employment_capitalists_add = 300
+			building_employment_bankers_add = 300
 			building_employment_shopkeepers_add = 100
 		}
 		unscaled = {
 			building_shopkeepers_shares_add = 0.1
-			building_capitalists_shares_add = 1
+			building_bankers_shares_add = 1
 			building_production_exp_cap_add = 0.6
 		}
 	}		
 	state_modifiers = {
 		workforce_scaled = {
-			state_capitalists_investment_pool_contribution_add = 0.01
+			#state_capitalists_investment_pool_contribution_add = 0.01
 			state_political_strength_from_wealth_mult = 0.01
 		}	
 	}	
