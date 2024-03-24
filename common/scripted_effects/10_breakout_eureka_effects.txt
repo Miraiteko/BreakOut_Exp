@@ -971,7 +971,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			
+			eurekacheck_plastics = yes
 		}	
 		100 = {
 			modifier = {
@@ -1268,7 +1268,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			#eurekacheck_compression_ignition = yes
+			eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1620,7 +1620,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			#eurekacheck_compression_ignition = yes
+			eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1686,7 +1686,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			#eurekacheck_compression_ignition = yes
+			eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1807,7 +1807,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			#eurekacheck_compression_ignition = yes
+			eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1884,7 +1884,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			#eurekacheck_compression_ignition = yes
+			eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1939,7 +1939,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			#eurekacheck_compression_ignition = yes
+			eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -1994,7 +1994,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			#eurekacheck_compression_ignition = yes
+			eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -2643,7 +2643,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			#eurekacheck_compression_ignition = yes
+			eurekacheck_compression_ignition = yes
 		}	
 		100 = {
 			modifier = {
@@ -3044,6 +3044,21 @@ eureka_effect = {
 	}
 }
 #eurekacheck
+eurekacheck_compression_ignition = {
+	random_list = {
+		1 = {
+			
+		}
+	}
+}	
+eurekacheck_plastics = {
+	random_list = {
+		1 = {
+			
+		}
+	}
+}	
+
 eurekacheck_academia = {
 	random_list = {
 		1 = {
