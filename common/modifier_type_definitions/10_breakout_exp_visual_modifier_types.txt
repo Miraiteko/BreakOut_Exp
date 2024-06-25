@@ -1,0 +1,34 @@
+﻿#凑数显示用buff
+building_production_exp_decay_add = {
+	decimals=1
+	color=bad
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+
+}
+building_production_exp_over_cap_bonus_add = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+building_production_exp_cap_add = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+building_production_exp_growth_add = {
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}

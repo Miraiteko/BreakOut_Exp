@@ -1,8 +1,0 @@
-﻿goods_output_coal_mult = {
-	good = yes
-	percent = yes
-}
-goods_output_oil_mult = {
-	good = yes
-	percent = yes
-}

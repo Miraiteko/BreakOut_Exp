@@ -4210,6 +4210,17 @@ eurekacheck_handcranked_machine_gun = {
 			}
 			eureka_automatic_machine_guns = yes
 		}
+		100 = {
+			modifier = {
+				if = {
+					limit = {
+						OWNER = { has_technology_researched = defense_in_depth }
+					}
+					add = -100
+				}
+			}
+			eureka_defense_in_depth = yes
+		}
 	}
 }
 eurekacheck_human_rights = {
@@ -4448,17 +4459,6 @@ eurekacheck_ironclad_tech = {
 				}
 			}
 			eureka_dreadnought = yes
-		}
-		100 = {
-			modifier = {
-				if = {
-					limit = {
-						OWNER = { has_technology_researched = destroyer }
-					}
-					add = -100
-				}
-			}
-			eureka_destroyer = yes
 		}
 	}
 }
@@ -4865,17 +4865,6 @@ eurekacheck_military_statistics = {
 				}
 			}
 			eureka_wargaming = yes
-		}
-		100 = {
-			modifier = {
-				if = {
-					limit = {
-						OWNER = { has_technology_researched = nco_training }
-					}
-					add = -100
-				}
-			}
-			eureka_nco_training = yes
 		}
 	}
 }
@@ -5623,6 +5612,17 @@ eurekacheck_screw_frigate = {
 			}
 			eureka_ironclad_tech = yes
 		}
+		100 = {
+			modifier = {
+				if = {
+					limit = {
+						OWNER = { has_technology_researched = gantry_cranes }
+					}
+					add = -100
+				}
+			}
+			eureka_gantry_cranes = yes
+		}
 	}
 }
 eurekacheck_sea_lane_strategies = {
@@ -6172,6 +6172,17 @@ eurekacheck_wargaming = {
 				}
 			}
 			eureka_stormtroopers = yes
+		}
+		100 = {
+			modifier = {
+				if = {
+					limit = {
+						OWNER = { has_technology_researched = nco_training }
+					}
+					add = -100
+				}
+			}
+			eureka_nco_training = yes
 		}
 	}
 }
@@ -8187,6 +8198,12 @@ eureka_gantry_cranes = {
             }
             PREV = { eureka_hydraulic_cranes = yes }
         }
+	    else_if =  {
+            limit =  {
+                NOT = { has_technology_researched = screw_frigate }
+            }
+            PREV = { eureka_screw_frigate = yes }
+        }
 	 	else = {
             add_technology_progress = { 
 		        progress = 5000
@@ -8269,6 +8286,12 @@ eureka_defense_in_depth = {
             }
             PREV = { eureka_trench_works = yes }
         }
+	    else_if =  {
+            limit =  {
+                NOT = { has_technology_researched = handcranked_machine_gun }
+            }
+            PREV = { eureka_handcranked_machine_gun = yes }
+        }
 	 	else = {
             add_technology_progress = { 
 		        progress = 5000
@@ -8350,12 +8373,6 @@ eureka_destroyer = {
                 NOT = { has_technology_researched = monitor_tech }
             }
             PREV = { eureka_monitor_tech = yes }
-        }
-	    else_if = {
-            limit =  {
-                NOT = { has_technology_researched = ironclad_tech }
-            }
-            PREV = { eureka_ironclad_tech = yes }
         }
 	 	else = {
             add_technology_progress = { 
@@ -8460,7 +8477,7 @@ eureka_nco_training = {
 	owner = {
 	    if =  {
             limit =  {
-                NOT = { has_technology_researched = military_statistics }
+                NOT = { has_technology_researched = wargaming }
             }
             PREV = { eureka_military_statistics = yes }
         }
