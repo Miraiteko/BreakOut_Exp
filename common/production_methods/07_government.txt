@@ -98,7 +98,7 @@ pm_modern_port = {
 		unscaled = {
 			building_production_exp_cap_add = 0.4
 		}
-		workforce_scaled = {
+		workforce_scaled = {	
 			building_production_exp_growth_add = 0.001	
 			goods_input_steamers_add = 5	
 			goods_input_oil_add = 5
@@ -359,7 +359,7 @@ pm_philosophy_department = {
 	
 	building_modifiers = {
 		unscaled = {
-			building_production_exp_cap_add = 0.2
+			building_production_exp_cap_add = 0.3
 		}
 		workforce_scaled = {
 			building_production_exp_growth_add = 0.001
@@ -394,9 +394,9 @@ pm_analytical_philosophy_department = {
 	
 	building_modifiers = {
 		unscaled = {
-			building_production_exp_cap_add = 0.3
+			building_production_exp_cap_add = 0.4
 		}
-		workforce_scaled = {
+		workforce_scaled = { 
 			building_production_exp_growth_add = 0.001 
 			goods_input_paper_add = 15
 		}

@@ -736,6 +736,7 @@ eureka_effect = {
 				if = {
 					limit = {
 						NOT = { has_active_production_method = pm_vacuum_canning }
+						NOT = { has_active_production_method = pm_vacuum_canning_principle_3 }
 					}
 					add = -100
 				}
@@ -1334,7 +1335,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_ironclad_tech = yes
+			eurekacheck_gantry_cranes = yes
 		}	
 		100 = {
 			modifier = {
@@ -2478,7 +2479,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_ironclad_tech = yes
+			eurekacheck_gantry_cranes = yes
 		}	
 		100 = {
 			modifier = {
@@ -2533,7 +2534,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			eurekacheck_ironclad_tech = yes
+			eurekacheck_gantry_cranes = yes
 		}	
 		100 = {
 			modifier = {
