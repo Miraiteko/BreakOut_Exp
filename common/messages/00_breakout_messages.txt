@@ -1777,3 +1777,13 @@ eureka_paved_roads_notification = {
 	
 	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/acquired_technology"
 } 
+eureka_tech_bureaucracy_notification = {
+	type = country
+	group = "eureka_notification_group"
+	
+	texture = "gfx/interface/icons/notification_icons/technology.dds"
+
+	notification_type = feed
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/acquired_technology"
+} 

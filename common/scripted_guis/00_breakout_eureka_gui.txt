@@ -1844,42 +1844,12 @@ breakout_eureka_international_trade = {
 		always = no
 	}
 }
-breakout_eureka_bureaucracy = {
-	scope = country
-	effect = {
-		add_technology_progress = { 
-			progress = 5000
-			technology = bureaucracy
-		}
-	}
-	is_shown = {
-		always = no
-	}
-	is_valid = {
-		always = no
-	}
-}
 breakout_eureka_centralization = {
 	scope = country
 	effect = {
 		add_technology_progress = { 
 			progress = 5000
 			technology = centralization
-		}
-	}
-	is_shown = {
-		always = no
-	}
-	is_valid = {
-		always = no
-	}
-}
-breakout_eureka_bureaucracy = {
-	scope = country
-	effect = {
-		add_technology_progress = { 
-			progress = 5000
-			technology = bureaucracy
 		}
 	}
 	is_shown = {
@@ -1949,21 +1919,6 @@ breakout_eureka_international_relations = {
 		always = no
 	}
 }
-breakout_eureka_bureaucracy = {
-	scope = country
-	effect = {
-		add_technology_progress = { 
-			progress = 5000
-			technology = bureaucracy
-		}
-	}
-	is_shown = {
-		always = no
-	}
-	is_valid = {
-		always = no
-	}
-}
 breakout_eureka_law_enforcement = {
 	scope = country
 	effect = {
@@ -1979,12 +1934,12 @@ breakout_eureka_law_enforcement = {
 		always = no
 	}
 }
-breakout_eureka_bureaucracy = {
+breakout_eureka_tech_bureaucracy = {
 	scope = country
 	effect = {
 		add_technology_progress = { 
 			progress = 5000
-			technology = bureaucracy
+			technology = tech_bureaucracy
 		}
 	}
 	is_shown = {

@@ -40,6 +40,7 @@ pm_market_squares = {
 		unscaled = {
 			building_production_exp_cap_add = 0.2
 		}
+	}
 }
 
 pm_covered_markets = {
