@@ -29,7 +29,7 @@
 
 pm_breakout_market_steam_trains = {
 	texture = "gfx/interface/icons/production_method_icons/trains_steam.dds"
-	replacement_if_valid = pm_steam_trains_principle_transport_3
+	replacement_if_valid = pm_breakout_market_steam_trains_principle_transport_3
 
 	unlocking_technologies = {
 		steel_railway_cars
@@ -61,7 +61,7 @@ pm_breakout_market_steam_trains = {
 	}
 }
 
-pm_steam_trains_principle_transport_3 = {
+pm_breakout_market_steam_trains_principle_transport_3 = {
 	texture = "gfx/interface/icons/production_method_icons/trains_steam.dds"
 	is_hidden_when_unavailable = yes
 
@@ -100,7 +100,7 @@ pm_steam_trains_principle_transport_3 = {
 }
 pm_breakout_market_electric_trains = {
 	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
-	replacement_if_valid = pm_electric_trains_principle_transport_3
+	replacement_if_valid = pm_breakout_market_electric_trains_principle_transport_3
 	
 	unlocking_technologies = {
 		electric_railway
@@ -134,7 +134,7 @@ pm_breakout_market_electric_trains = {
 	required_input_goods = electricity
 }
 
-pm_electric_trains_principle_transport_3 = {
+pm_breakout_market_electric_trains_principle_transport_3 = {
 	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
 	is_hidden_when_unavailable = yes
 
@@ -176,7 +176,7 @@ pm_electric_trains_principle_transport_3 = {
 
 pm_breakout_market_diesel_trains = {
 	texture = "gfx/interface/icons/production_method_icons/trains_diesel.dds"	
-	replacement_if_valid = pm_diesel_trains_principle_transport_3
+	replacement_if_valid = pm_breakout_market_diesel_trains_principle_transport_3
 
 	unlocking_technologies = {
 		compression_ignition
@@ -208,7 +208,7 @@ pm_breakout_market_diesel_trains = {
 	}
 }
 
-pm_diesel_trains_principle_transport_3 = {
+pm_breakout_market_diesel_trains_principle_transport_3 = {
 	texture = "gfx/interface/icons/production_method_icons/trains_diesel.dds"	
 	is_hidden_when_unavailable = yes
 
