@@ -53,6 +53,12 @@ pm_fertilization = {
 		improved_fertilizer
 	}
 	
+	state_modifiers = {
+		unscaled = {
+			state_harvest_condition_drought_impact_mult = 0.05
+		}
+	}
+	
 	building_modifiers = {
 		unscaled = {
 			building_production_exp_cap_add = 0.3
@@ -79,6 +85,13 @@ pm_chemical_fertilizer = {
 	unlocking_technologies = {
 		nitrogen_fixation
 	}
+
+	state_modifiers = {
+		unscaled = {
+			state_harvest_condition_drought_impact_mult = 0.1
+		}
+	}
+
 	building_modifiers = {
 		unscaled = {
 			building_production_exp_cap_add = 0.4
@@ -294,7 +307,7 @@ pm_fertilization_building_rice_farm = {
 		workforce_scaled = {
 			building_production_exp_growth_add = 0.001
 			# input goods													
-			goods_input_fertilizer_add = 30				
+			goods_input_fertilizer_add = 20				
 			
 			# output goods												   
 			goods_output_grain_add = 90
