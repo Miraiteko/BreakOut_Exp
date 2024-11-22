@@ -2294,7 +2294,7 @@ breakout_eureka_socialism = {
 		always = no
 	}
 }
-breakout_eureka_pan-nationalism = {
+breakout_eureka_pan_nationalism = {
 	scope = country
 	effect = {
 		add_technology_progress = { 

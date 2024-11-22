@@ -769,10 +769,10 @@
  notification_eureka_socialism_notification_desc:"[SCOPE.sBuilding('building_scope').GetState.GetName]的[SCOPE.sBuilding('building_scope').GetName]$eureka_notification_tt1$:\n[GetScriptedGui('breakout_eureka_socialism').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
  notification_eureka_socialism_notification_tooltip:"eureka_notification_tt"
  
- eureka_pan-nationalism_notification:"[concept_eureka]"
- notification_eureka_pan-nationalism_notification_name:"[concept_eureka]"
- notification_eureka_pan-nationalism_notification_desc:"[SCOPE.sBuilding('building_scope').GetState.GetName]的[SCOPE.sBuilding('building_scope').GetName]$eureka_notification_tt1$:\n[GetScriptedGui('breakout_eureka_pan-nationalism').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
- notification_eureka_pan-nationalism_notification_tooltip:"eureka_notification_tt"
+ eureka_pan_nationalism_notification:"[concept_eureka]"
+ notification_eureka_pan_nationalism_notification_name:"[concept_eureka]"
+ notification_eureka_pan_nationalism_notification_desc:"[SCOPE.sBuilding('building_scope').GetState.GetName]的[SCOPE.sBuilding('building_scope').GetName]$eureka_notification_tt1$:\n[GetScriptedGui('breakout_eureka_pan_nationalism').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+ notification_eureka_pan_nationalism_notification_tooltip:"eureka_notification_tt"
  
  eureka_mutual_funds_notification:"[concept_eureka]"
  notification_eureka_mutual_funds_notification_name:"[concept_eureka]"

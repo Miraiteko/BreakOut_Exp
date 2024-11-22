@@ -1557,7 +1557,7 @@ eureka_socialism_notification = {
 	
 	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/acquired_technology"
 } 
-eureka_pan-nationalism_notification = {
+eureka_pan_nationalism_notification = {
 	type = country
 	group = "eureka_notification_group"
 	

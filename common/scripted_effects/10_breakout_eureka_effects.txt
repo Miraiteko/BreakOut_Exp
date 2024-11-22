@@ -4669,7 +4669,7 @@ eurekacheck_nationalism = {
 				}
 				add = -100
 			}
-			eureka_pan-nationalism = yes
+			eureka_pan_nationalism = yes
 		}
 		100 = {
 			modifier = {
@@ -9007,7 +9007,7 @@ eureka_socialism = {
     }
 }
 
-eureka_pan-nationalism = {
+eureka_pan_nationalism = {
 	save_scope_as = building_scope
 	owner = {
 	    if =  {
@@ -9021,7 +9021,7 @@ eureka_pan-nationalism = {
 		        progress = 5000
 			    technology =  pan-nationalism
 		    }
-		    post_notification = eureka_pan-nationalism_notification
+		    post_notification = eureka_pan_nationalism_notification
 		}
     }
 }
@@ -9203,7 +9203,7 @@ eureka_political_agitation = {
             limit =  {
                 NOT = { has_technology_researched = pan-nationalism }
             }
-            PREV = { eureka_pan-nationalism = yes }
+            PREV = { eureka_pan_nationalism = yes }
         }
 	    else = {
             add_technology_progress = { 
@@ -9279,7 +9279,7 @@ eureka_multilateral_alliances = {
             limit =  {
                 NOT = { has_technology_researched = pan-nationalism }
             }
-            PREV = { eureka_pan-nationalism = yes }
+            PREV = { eureka_pan_nationalism = yes }
         }
 	 	else = {
             add_technology_progress = { 
