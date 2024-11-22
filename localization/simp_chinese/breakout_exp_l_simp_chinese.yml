@@ -25,8 +25,7 @@ building_production_exp_growth_add_desc:"每月增长的[concept_production_exp]
  setting_no_resource_depletion:"#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_no_resource_depletion_desc 标准#!#!"
  setting_no_resource_depletion_desc:"原版游戏的资源枯竭机制"
  setting_limited_fossil_fuel:"#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_limited_fossil_fuel_desc 化石燃料枯竭#!#!"
- setting_limited_fossil_fuel_desc:"@coal!煤炭和@oil!油的产量会获得初始加成，但是会随着开采逐渐下降。\n#X 注意：#!\此选项将会给先发经济体更大的优势，并且让游戏后期更加资源匮乏！"
- 
+ setting_limited_fossil_fuel_desc:"@coal!煤炭和@oil!油的产量会获得初始加成，但是会随着开采逐渐下降。\n#X 注意：#!\此选项将会给先发经济体更大的优势，并且让游戏后期更加资源匮乏！" 
  oil_extraction_deplete_modifier_desc:"$concept_oil_extraction_deplete_desc$"
  coal_mining_deplete_modifier:"[concept_coal_mining_deplete]"
  coal_mining_deplete_modifier_desc:"$concept_coal_mining_deplete_desc"

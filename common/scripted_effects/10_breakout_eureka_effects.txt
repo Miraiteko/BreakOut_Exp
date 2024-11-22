@@ -4663,11 +4663,13 @@ eurekacheck_nationalism = {
 			eureka_organized_sports = yes
 		}
 		100 = {
-			if = {
-				limit = {
-					OWNER = { has_technology_researched = pan-nationalism }
+			modifier = {
+				if = {
+					limit = {
+						OWNER = { has_technology_researched = pan-nationalism }
+					}
+					add = -100
 				}
-				add = -100
 			}
 			eureka_pan_nationalism = yes
 		}
