@@ -199,12 +199,12 @@ eureka_effect = {
 			modifier = {
 				if = {
 					limit = {
-						NOT = { is_building_type = building_war_machine_industry }
+						NOT = { is_building_type = building_automotive_industry }
 					}
 					add = -100
 				}
 			}
-			eurekacheck_military_aviation = yes
+			eurekacheck_combustion_engine = yes
 		}
 		
 		100 = {
@@ -693,6 +693,28 @@ eureka_effect = {
 			modifier = {
 				if = {
 					limit = {
+						NOT = { has_active_production_method = pm_trade_center_trade_quantity_high }
+					}
+					add = -100
+				}
+			}
+			eurekacheck_hydraulic_cranes = yes
+		}	
+		100 = {
+			modifier = {
+				if = {
+					limit = {
+						NOT = { has_active_production_method = pm_trade_center_trade_quantity_very_high }
+					}
+					add = -100
+				}
+			}	
+			eurekacheck_floating_harbor = yes
+		}	
+		100 = {
+			modifier = {
+				if = {
+					limit = {
 						NOT = { has_active_production_method = pm_sweeteners }
 					}
 					add = -100
@@ -709,7 +731,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			
+			#eurekacheck_baking_powder = yes	
 		}	
 		100 = {
 			modifier = {
@@ -1222,17 +1244,6 @@ eureka_effect = {
 			modifier = {
 				if = {
 					limit = {
-						NOT = { has_active_production_method = pm_automobile_production }
-					}
-					add = -100
-				}
-			}
-			eurekacheck_combustion_engine = yes
-		}	
-		100 = {
-			modifier = {
-				if = {
-					limit = {
 						NOT = { has_active_production_method = pm_watertube_boiler_building_motor_industry }
 					}
 					add = -100
@@ -1299,12 +1310,45 @@ eureka_effect = {
 			modifier = {
 				if = {
 					limit = {
+						NOT = { has_active_production_method = pm_mass_automobile_production }
+					}
+					add = -100
+				}
+			}
+			#eurekacheck_compression_ignition = yes
+		}	
+		100 = {
+			modifier = {
+				if = {
+					limit = {
+						NOT = { has_active_production_method = pm_aeroplane_production }
+					}
+					add = -100
+				}
+			}
+			eurekacheck_military_aviation = yes
+		}	
+		100 = {
+			modifier = {
+				if = {
+					limit = {
 						NOT = { has_active_production_method = pm_tank_production }
 					}
 					add = -100
 				}
 			}
-			##eurekacheck_mobile_armor = yes
+			#eurekacheck_mobile_armor = yes
+		}	
+		100 = {
+			modifier = {
+				if = {
+					limit = {
+						NOT = { has_active_production_method = pm_assembly_lines_building_automotive_industry }
+					}
+					add = -100
+				}
+			}
+			eurekacheck_conveyors = yes
 		}	
 		100 = {
 			modifier = {
@@ -2723,7 +2767,7 @@ eureka_effect = {
 					add = -100
 				}
 			}
-			##eurekacheck_mobile_armor = yes
+			#eurekacheck_mobile_armor = yes
 		}	
 	}
 }
@@ -4265,12 +4309,12 @@ eurekacheck_line_infantry = {
 				if = {
 					limit = {
 						always = yes
-						OWNER = { has_technology_researched = army_reservation }
+						OWNER = { has_technology_researched = army_reserves }
 					}
 					add = -100
 				}
 			}
-			eureka_army_reservation = yes
+			eureka_army_reserves = yes
 		}
 	}
 }
@@ -7362,7 +7406,7 @@ eureka_admiralty = {
     }
 }
 
-eureka_army_reservation = {
+eureka_army_reserves = {
 	save_scope_as = building_scope
 	owner = {
 	    if =  {
@@ -7374,9 +7418,9 @@ eureka_army_reservation = {
 	 	else = {
             add_technology_progress = { 
 		        progress = 5000
-			    technology =  army_reservation
+			    technology =  army_reserves
 		    }
-		    post_notification = eureka_army_reservation_notification
+		    post_notification = eureka_army_reserves_notification
 		}
     }
 }
@@ -7456,9 +7500,9 @@ eureka_logistics = {
 	    else_if = {
             limit =  {
 				always = no
-                NOT = { has_technology_researched = army_reservation }
+                NOT = { has_technology_researched = army_reserves }
             }
-            PREV = { eureka_army_reservation = yes }
+            PREV = { eureka_army_reserves = yes }
         }
 	 	else = {
             add_technology_progress = { 
@@ -7552,9 +7596,9 @@ eureka_general_staff = {
 	    if =  {
             limit =  {
 				always = no
-                NOT = { has_technology_researched = army_reservation }
+                NOT = { has_technology_researched = army_reserves }
             }
-            PREV = { eureka_army_reservation = yes }
+            PREV = { eureka_army_reserves = yes }
         }
 	 	else = {
             add_technology_progress = { 

@@ -339,10 +339,10 @@
  notification_eureka_admiralty_notification_desc:"[SCOPE.sBuilding('building_scope').GetState.GetName]的[SCOPE.sBuilding('building_scope').GetName]$eureka_notification_tt1$:\n[GetScriptedGui('breakout_eureka_admiralty').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
  notification_eureka_admiralty_notification_tooltip:"eureka_notification_tt"
  
- eureka_army_reservation_notification:"[concept_eureka]"
- notification_eureka_army_reservation_notification_name:"[concept_eureka]"
- notification_eureka_army_reservation_notification_desc:"[SCOPE.sBuilding('building_scope').GetState.GetName]的[SCOPE.sBuilding('building_scope').GetName]$eureka_notification_tt1$:\n[GetScriptedGui('breakout_eureka_army_reservation').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
- notification_eureka_army_reservation_notification_tooltip:"eureka_notification_tt"
+ eureka_army_reserves_notification:"[concept_eureka]"
+ notification_eureka_army_reserves_notification_name:"[concept_eureka]"
+ notification_eureka_army_reserves_notification_desc:"[SCOPE.sBuilding('building_scope').GetState.GetName]的[SCOPE.sBuilding('building_scope').GetName]$eureka_notification_tt1$:\n[GetScriptedGui('breakout_eureka_army_reserves').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+ notification_eureka_army_reserves_notification_tooltip:"eureka_notification_tt"
  
  eureka_line_infantry_notification:"[concept_eureka]"
  notification_eureka_line_infantry_notification_name:"[concept_eureka]"
