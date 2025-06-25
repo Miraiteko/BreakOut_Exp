@@ -1,10 +1,10 @@
-﻿pm_breakout_market_no_street_lighting = {
+﻿pm_no_street_lighting = {
 	texture = "gfx/interface/icons/production_method_icons/no_street_lighting.dds"
 
 	city_lights_color_index = 0	# Needs to match city_graphics_data.settings color array
 }
 
-pm_breakout_market_gas_streetlights = {
+pm_gas_streetlights = {
 	texture = "gfx/interface/icons/production_method_icons/gas_streetlights.dds"
 
 	city_lights_color_index = 1	# Needs to match city_graphics_data.settings color array
@@ -31,7 +31,7 @@ pm_breakout_market_gas_streetlights = {
 	}
 }
 
-pm_breakout_market_electric_streetlights = {
+pm_electric_streetlights = {
 	texture = "gfx/interface/icons/production_method_icons/electric_streetlights.dds"
 
 	city_lights_color_index = 2	# Needs to match city_graphics_data.settings color array
@@ -62,7 +62,7 @@ pm_breakout_market_electric_streetlights = {
 	required_input_goods = electricity
 }
 
-pm_breakout_market_anchorage = {
+pm_anchorage = {
 	texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
 
 	low_pop_method = yes # AI will activate this method for states with low population
@@ -75,7 +75,7 @@ pm_breakout_market_anchorage = {
 		}
 	}
 }	
-pm_breakout_market_basic_port = {
+pm_basic_port = {
 	texture = "gfx/interface/icons/production_method_icons/basic_port.dds"
 
 	building_modifiers = {
@@ -106,7 +106,7 @@ pm_breakout_market_basic_port = {
 		}
 	}
 }
-pm_breakout_market_industrial_port = {
+pm_industrial_port = {
 	texture = "gfx/interface/icons/production_method_icons/industrial_port.dds"
 
 	unlocking_technologies = {
@@ -144,7 +144,7 @@ pm_breakout_market_industrial_port = {
 	}
 }
 
-pm_breakout_market_modern_port = {
+pm_modern_port = {
 	texture = "gfx/interface/icons/production_method_icons/modern_port.dds"
 	unlocking_technologies = {
 		concrete_dockyards
@@ -181,7 +181,7 @@ pm_breakout_market_modern_port = {
 		}
 	}
 }
-pm_breakout_market_early_trains = {
+pm_early_trains = {
 	texture = "gfx/interface/icons/production_method_icons/experimental_trains.dds"
 
 	building_modifiers = {
@@ -210,9 +210,9 @@ pm_breakout_market_early_trains = {
 	}
 }
 
-pm_breakout_market_steam_trains = {
+pm_steam_trains = {
 	texture = "gfx/interface/icons/production_method_icons/trains_steam.dds"
-	replacement_if_valid = pm_breakout_market_steam_trains_principle_transport_3
+	replacement_if_valid = pm_steam_trains_principle_transport_3
 
 	unlocking_technologies = {
 		steel_railway_cars
@@ -244,7 +244,7 @@ pm_breakout_market_steam_trains = {
 	}
 }
 
-pm_breakout_market_steam_trains_principle_transport_3 = {
+pm_steam_trains_principle_transport_3 = {
 	texture = "gfx/interface/icons/production_method_icons/trains_steam.dds"
 	is_hidden_when_unavailable = yes
 
@@ -281,9 +281,9 @@ pm_breakout_market_steam_trains_principle_transport_3 = {
 		}
 	}
 }
-pm_breakout_market_electric_trains = {
+pm_electric_trains = {
 	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
-	replacement_if_valid = pm_breakout_market_electric_trains_principle_transport_3
+	replacement_if_valid = pm_electric_trains_principle_transport_3
 	
 	unlocking_technologies = {
 		electric_railway
@@ -315,7 +315,7 @@ pm_breakout_market_electric_trains = {
 	}
 }
 
-pm_breakout_market_electric_trains_principle_transport_3 = {
+pm_electric_trains_principle_transport_3 = {
 	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
 	is_hidden_when_unavailable = yes
 
@@ -353,9 +353,9 @@ pm_breakout_market_electric_trains_principle_transport_3 = {
 	}
 }
 
-pm_breakout_market_diesel_trains = {
+pm_diesel_trains = {
 	texture = "gfx/interface/icons/production_method_icons/trains_diesel.dds"	
-	replacement_if_valid = pm_breakout_market_diesel_trains_principle_transport_3
+	replacement_if_valid = pm_diesel_trains_principle_transport_3
 
 	unlocking_technologies = {
 		compression_ignition
@@ -388,7 +388,7 @@ pm_breakout_market_diesel_trains = {
 	}
 }
 
-pm_breakout_market_diesel_trains_principle_transport_3 = {
+pm_diesel_trains_principle_transport_3 = {
 	texture = "gfx/interface/icons/production_method_icons/trains_diesel.dds"	
 	is_hidden_when_unavailable = yes
 
